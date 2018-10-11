@@ -51,7 +51,8 @@ x = len(low_random_string)
 # find how how many characters(vowels) where removed.
 z = q - x
 # printing out the original string without vowels and how many vowels were removed.
-print(random_string, "has had", z, "vowels removed!")
+# This changes the original string to lower case. I can do better.
+print(low_random_string, "has had", z, "vowels removed!")
 
 
 
